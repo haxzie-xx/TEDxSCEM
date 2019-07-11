@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "TEDxSCEM",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "The Official website for TEDxSCEM",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Musthaq Ahamad <musthu.gm@gmail.com>",
   "dependencies": {
     "gatsby": "^2.5.0",
     "gatsby-image": "^2.0.41",
@@ -16,7 +16,8 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "styled-components": "^4.2.0"
   },
   "devDependencies": {
     "prettier": "^1.17.1"
@@ -32,12 +33,5 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
