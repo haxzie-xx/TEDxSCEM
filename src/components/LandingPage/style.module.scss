@@ -1,0 +1,65 @@
+@font-face{
+    font-family: 'helvetica';
+    src:url('../../assets/Helvetica.ttf');
+}
+
+
+.container
+{
+
+    background-image: url('../../images/TedX.png');
+    background-size:cover; 
+    margin: 0px;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   
+    .herocontent
+    {
+        background-color: none;
+        margin-top: 280px;
+        height: 100vh;
+       
+        flex-direction: row;
+        justify-content: space-between;
+    .herotitle
+    {
+       font-family: 'helvetica';
+        font-size: 40px;
+        margin-bottom: 0px;
+        font-weight: 600;
+        color: white;
+        background-image: none;
+        background-color: transparent; 
+    }
+    .heroslogan
+    {
+        font-family: 'helvetica';
+        color: white;
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-weight: 500;
+
+    
+    }
+    .red
+    {
+        color:rgb(230,43,30);
+        font-weight: 700;
+    }
+
+    .HeroButton
+    {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        margin-top: 100px;
+        font-family: 'helvetica';
+        padding: 10px;
+        background-color: rgb(230,43,30);
+    }
+}
+}
+

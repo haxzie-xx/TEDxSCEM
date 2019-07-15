@@ -1,0 +1,77 @@
+@font-face{
+    font-family: 'helvetica';
+    src:url('../../assets/Helvetica.ttf');
+}
+
+
+.section
+{
+    background-color: black;
+
+
+    .container
+    {
+        .title
+        {
+          text-align: center;
+            color: white;
+            font-size:50px;
+            font-family: 'helvetica';
+            font-weight: 600;
+        .red
+        {
+        color:rgb(230,43,30);
+        font-weight: 700;
+        }
+        
+        }
+        .speaker_container
+        {
+            display: flex;
+            width: 100%;
+            flex-flow: row wrap;
+       
+        .speaker_holder
+        {
+         
+            flex: 1 0 calc(23.333% - 20px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-height: 400px;
+            max-width: 300px;;
+            margin-bottom: 30px;
+            margin-left: 50px;
+            
+
+            .speaker_name
+            {
+                align-self: center;
+                font-family: 'helvetica';
+                color: white;
+                font-size: 20px;
+                margin-bottom: 0px;
+            }
+            .about_speaker
+            {
+                align-self: center;
+                font-family: 'helvetica';
+                margin:0px;
+                    color: grey;
+            }
+            .speaker
+            {
+               
+             
+           
+               max-width: 300px;
+               max-height: 300px;
+               border: solid white 2px;
+               border-radius: 5px;
+            }
+        
+           
+        }
+    }
+}
+}
