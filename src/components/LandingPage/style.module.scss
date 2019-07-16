@@ -2,7 +2,7 @@
     font-family: 'helvetica';
     src:url('../../assets/Helvetica.ttf');
 }
-
+@import '../../assets/variables';
 
 .container
 {
@@ -14,6 +14,20 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+
+
+    @media #{$media-tablet-p} {
+        background-image: url('../../images/tablet_X.png');
+        
+      }
+      @media #{$media-mobile} {
+        background-image: url('../../images/mobile_x.png');
+        
+      }
+      @media #{$media-small} {
+        background-image: url('../../images/small.png');
+        
+      }
    
     .herocontent
     {
@@ -23,6 +37,13 @@
        
         flex-direction: row;
         justify-content: space-between;
+
+        @media #{$media-tablet-p} {
+            margin-top: 250px;
+            
+          }
+
+
     .herotitle
     {
        font-family: 'helvetica';

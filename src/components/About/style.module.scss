@@ -2,10 +2,13 @@
     font-family: 'helvetica';
     src:url('../../assets/Helvetica.ttf');
 }
+@import '../../assets/variables';
+
 
 
 .container
 {
+    
     background-color:#1A1A1D;;
     
 
@@ -29,6 +32,16 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 50px;
+
+        @media  #{$media-tablet-p} {
+            flex-direction: column;
+        }
+        @media  #{$media-mobile} {
+            flex-direction: column;
+        }
+        @media  #{$media-small} {
+            flex-direction: column;
+        }
         
         .content
         {
@@ -39,6 +52,15 @@
             width: 50%;
             font-size: 16px;
             padding: 25px;
+            @media  #{$media-tablet-p} {
+                width: 80%;
+            }
+            @media  #{$media-mobile} {
+                width: 80%;
+            }
+            @media  #{$media-small} {
+                width: 80%;
+            }
 
             .content_data
             {
@@ -62,6 +84,23 @@
             margin-top: 50px;
             max-width: 500px;
             max-height: 300px;
+
+            @media  #{$media-tablet-p} {
+                order: 2;
+                align-self: center;
+            }
+            @media  #{$media-mobile} {
+                order: 2;
+                align-self: center;
+                width:320px;
+                height: 200px;
+            }
+            @media  #{$media-small} {
+                order: 2;
+                align-self: center;
+                width:320px;
+                height: 200px;
+            }
         }
     }
 

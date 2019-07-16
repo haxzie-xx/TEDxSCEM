@@ -2,7 +2,7 @@
     font-family: 'helvetica';
     src:url('../../assets/Helvetica.ttf');
 }
-
+@import '../../assets/variables';
 
 .section
 {
@@ -18,6 +18,15 @@
             font-size:50px;
             font-family: 'helvetica';
             font-weight: 600;
+
+            @media #{$media-mobile} {
+               font-size: 40px;
+                
+            }
+            @media #{$media-small} {
+                font-size: 40px;
+                
+            }
         .red
         {
         color:rgb(230,43,30);
@@ -44,6 +53,18 @@
             max-width: 300px;
             margin-bottom: 70px;
             margin-left: 50px;
+            @media #{$media-tablet-p} {
+                margin-left: 0px;
+                
+            }
+            @media #{$media-mobile} {
+                margin-left: 0px;
+                margin-top: 30px;
+            }
+            @media #{$media-small} {
+                margin-left: 0px;
+                margin-top: 30px;
+            }
             
 
             .speaker_name

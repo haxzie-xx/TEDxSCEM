@@ -1,20 +1,25 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React, { Component } from "react"
 import tedx from '../../images/TedX.png'
-import style from './style.module.css'
+import style from './style.module.scss'
 import tedlogo from '../../images/TEDxSCEM5.png'
+import styled from "@emotion/styled"
+import { css } from "@emotion/core"
+
+
 
 
 const Navbar =()=>
 (
     <div className={style.container}>
-        <img src={tedlogo} width="200px" />
+        <img src={tedlogo} className={style.tedlogo}/>
         <div className={style.pages}>
-            <Link className={style.links}>Home </Link>
-            <Link className={style.links}>Speakers</Link>
-            <Link className={style.links}>Team</Link>
-            <Link className={style.links}>Contact</Link>
+       
+            <Link className={style.links} activeClassName={style.activelinks}  to="/">Home </Link>
+            <Link className={style.links} activeClassName={style.activelinks} to="/Speakers">Speakers</Link>
+            <Link className={style.links} activeClassName={style.activelinks} to="/team">Team</Link>
+            <Link className={style.links} activeClassName={style.activelinks} to="/contact">Contact</Link>
 
         </div>
 

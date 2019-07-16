@@ -2,6 +2,7 @@
     font-family: 'helvetica';
     src:url('../../assets/Helvetica.ttf');
 }
+@import '../../assets/variables';
 
 
 .section
@@ -41,6 +42,21 @@
             height: 80%;
             align-self: center;
             width: 30%;
+
+            @media #{$media-tablet-p} {
+                width: 50%;
+                
+            }
+            @media #{$media-mobile} {
+                width: 60%;
+                
+            }
+            @media #{$media-small} {
+                width: 80%;
+                    
+
+                
+            }
             .HeroButton
             {
                 align-self: center;
@@ -72,6 +88,21 @@
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
+
+            @media #{$media-tablet-p} {
+                flex-direction: column;
+                
+            }
+            @media #{$media-mobile} {
+                flex-direction: column;
+                
+            }
+            @media #{$media-small} {
+                flex-direction: column;
+                    
+
+                
+            }
            
             .venue_image
             {
@@ -81,6 +112,22 @@
            
              max-width: 500px;
              max-height: 480px;
+
+             @media #{$media-tablet-p} {
+                align-self: center;
+                
+            }
+            @media #{$media-mobile} {
+              height: 300px;;
+                
+            }
+            @media #{$media-small} {
+                height: 200px;;
+                    
+
+                
+            }
+             
             }
         
         }

@@ -31,6 +31,15 @@ const Speakers =({props})=>
         imageSecond: file(relativePath: { eq: "Speaker_2.jpg" }) {
           ...SpeakerImages
         }
+        imageThird: file(relativePath: { eq: "Speaker_3.jpeg" }) {
+          ...SpeakerImages
+        }
+        imageFourth: file(relativePath: { eq: "Speaker_4.jpg" }) {
+          ...SpeakerImages
+        }
+        imageFifth: file(relativePath: { eq: "Speaker_5.jpeg" }) {
+          ...SpeakerImages
+        }
         imageSixth: file(relativePath: { eq: "Speaker_6.jpg" }) {
           ...SpeakerImages
         }
@@ -57,7 +66,7 @@ const Speakers =({props})=>
             alt="Speaker image"
             /> 
             <p className={style.speaker_name}>Siddharth Rajahans</p>
-            <p className={style.about_speaker}>Doctor</p>               
+            <p className={style.about_speaker}>Enterpreneur</p>               
             </div>
             <div className={style.speaker_holder}>
             <Img
@@ -66,34 +75,34 @@ const Speakers =({props})=>
             alt="Speaker image"
             /> 
             <p className={style.speaker_name}>Dhanya Ravi</p>
-            <p className={style.about_speaker}>Doctor</p>               
+            <p className={style.about_speaker}>Inspire</p>               
             </div>
             <div className={style.speaker_holder}>
             <Img
-            fluid={data.imageFirst.childImageSharp.fluid}
+            fluid={data.imageThird.childImageSharp.fluid}
             className={style.speaker}
             alt="Speaker image"
             /> 
             <p className={style.speaker_name}>Brigadier | N Rai</p>
-            <p className={style.about_speaker}>Doctor</p>               
+            <p className={style.about_speaker}>Defence</p>               
             </div>
             <div className={style.speaker_holder}>
             <Img
-            fluid={data.imageFirst.childImageSharp.fluid}
+            fluid={data.imageFourth.childImageSharp.fluid}
             className={style.speaker}
             alt="Speaker image"
             /> 
             <p className={style.speaker_name}>Swasthik Padma</p>
-            <p className={style.about_speaker}>Doctor</p>               
+            <p className={style.about_speaker}>Innovater</p>               
             </div>
             <div className={style.speaker_holder}>
             <Img
-            fluid={data.imageFirst.childImageSharp.fluid}
+            fluid={data.imageFifth.childImageSharp.fluid}
             className={style.speaker}
             alt="Speaker image"
             /> 
             <p className={style.speaker_name}>Kivita Mishra</p>
-            <p className={style.about_speaker}>Doctor</p>               
+            <p className={style.about_speaker}>Agriculturist</p>               
             </div>
             <div className={style.speaker_holder}>
             <Img
@@ -111,7 +120,7 @@ const Speakers =({props})=>
             alt="Speaker image"
             /> 
             <p className={style.speaker_name}>Swami Ekagamyananda</p>
-            <p className={style.about_speaker}>Doctor</p>               
+            <p className={style.about_speaker}>Social Worker</p>               
             </div>
             <div className={style.speaker_holder}>
             <Img
@@ -120,7 +129,7 @@ const Speakers =({props})=>
             alt="Speaker image"
             /> 
             <p className={style.speaker_name}>Ankith Kumar</p>
-            <p className={style.about_speaker}>Doctor</p>               
+            <p className={style.about_speaker}>Motivator</p>               
             </div>
 
 

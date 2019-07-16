@@ -11,7 +11,7 @@ const Footer =()=>
 
             <div className={style.container}>
                 <div className={style.content_holder}>
-                <p className={style.insta}>Folow Us on <Link className={style.insta}><br /><span className={style.red}>Instagram </span></Link>  </p>
+                <p className={style.insta2}>Folow Us on <Link className={style.insta}><br /><span className={style.red}>Instagram </span></Link>  </p>
                 <p className={style.insta}>Mail Us on  <span className={style.red}> <br /> tedxscem@gmail.com </span>  </p>
                 <p className={style.insta}>Contact Us on <span className={style.red}> <br /> +91 7624828176</span>  </p>
                 </div>

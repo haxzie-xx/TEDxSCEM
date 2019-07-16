@@ -18,8 +18,9 @@ const Venue =()=>
        <div className={style.container}>
          
            <p className={style.venue_content}>
-           Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, w
+           Netravati Auditorium is situated in the sprawling campus just off the Mangalore-Bangalore National Highway 48, 
+           on the banks of the river Nethravathi. Surrounded with natures pristine beauty and an excellent infrastructure coupled.
+           It is one of the beautiful auditorium of Sahyadri College of Engineering and Management
 
                 </p>
                 <div className={style.buttons}>

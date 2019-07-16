@@ -1,0 +1,76 @@
+
+@font-face{
+    font-family: 'helvetica';
+    src:url('../../assets/Helvetica.ttf');
+}
+
+@import '../../assets/variables';
+.container
+{
+    background-color: black;
+    padding:7px;
+    display: flex;
+    justify-content: space-between;
+
+    @media  #{$media-mobile} {
+       flex-direction: column;
+    }
+    @media  #{$media-small} {
+        flex-direction: column;
+    }
+
+.tedlogo
+{
+    width: 200px;
+   
+
+    @media  #{$media-tablet-p} {
+        width: 180px;
+        height: 40px;
+    }
+    @media  #{$media-mobile} {
+        width: 150px;
+    }
+    @media  #{$media-small} {
+        width: 150px;
+        height: 40px;
+    }
+}
+
+    .pages
+{
+    font-family: 'helvetica';
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    text-decoration-color: none;
+    margin-top: 15px;
+    width: 60%;
+    display:flex;
+    justify-content: space-evenly;
+    @media  #{$media-mobile} {
+       width: 100%;
+    }
+    @media  #{$media-small} {
+        width: 100%;
+    }
+   
+
+.links
+{
+    color: white;
+    text-decoration: none;
+   
+}
+.activelinks
+{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-bottom: solid rgb(230,43,30) 2px;
+   
+}
+
+}
+}
+
+

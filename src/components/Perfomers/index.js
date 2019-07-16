@@ -27,13 +27,9 @@ const Perfomers=()=>
         imageThird: file(relativePath: { eq: "Performance_3.jpg" }) {
           ...PerfomersImages
         }
-        imageSeventh: file(relativePath: { eq: "Speaker_7.jpg" }) {
+        imageFourth: file(relativePath: { eq: "Performance_4.jpg" }) {
           ...PerfomersImages
         }
-        imageEiegth: file(relativePath: { eq: "Speaker_8.jpg" }) {
-          ...PerfomersImages
-        }
-        
       }
 
     `
@@ -53,8 +49,8 @@ const Perfomers=()=>
             className={style.speaker}
             alt="Speaker image"
             /> 
-            <p className={style.speaker_name}>Siddharth Rajahans</p>
-            <p className={style.about_speaker}>Doctor</p>               
+            <p className={style.speaker_name}>Karishma Arora</p>
+            <p className={style.about_speaker}>Kathak</p>               
             </div>
             <div className={style.speaker_holder}>
             <Img
@@ -63,7 +59,7 @@ const Perfomers=()=>
             alt="Speaker image"
             /> 
             <p className={style.speaker_name}>Adarsh Pakkala</p>
-            <p className={style.about_speaker}>Doctor</p>               
+            <p className={style.about_speaker}>Yakshagana</p>               
             </div>
             <div className={style.speaker_holder}>
             <Img
@@ -71,17 +67,17 @@ const Perfomers=()=>
             className={style.speaker}
             alt="Speaker image"
             /> 
-            <p className={style.speaker_name}>Team Properganda</p>
-            <p className={style.about_speaker}>Group-Dance</p>               
+            <p className={style.speaker_name}>Team Propaganda</p>
+            <p className={style.about_speaker}>Bolly-Hop</p>               
             </div>
             <div className={`${style.speaker_holder} ${style.aligned}`}>
             <Img
-            fluid={data.imageFirst.childImageSharp.fluid}
+            fluid={data.imageFourth.childImageSharp.fluid}
             className={style.speaker}
             alt="Speaker image"
             /> 
-            <p className={style.speaker_name}>Siddharth Rajahans</p>
-            <p className={style.about_speaker}>Doctor</p>               
+            <p className={style.speaker_name}>ArtBeats</p>
+            <p className={style.about_speaker}>Fusion</p>               
             </div>
             </div>
             </div>
