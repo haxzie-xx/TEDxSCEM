@@ -11,6 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 import styled from 'styled-components';
 
 import Header from "./Header/header"
+import Footer from '../components/footer'
 
 
 const LayoutDiv = styled.div`
@@ -37,6 +38,7 @@ const Layout = ({ children }) => (
         <Header/>
 
         { children }
+        <Footer />
       </LayoutDiv>
     )}
   />

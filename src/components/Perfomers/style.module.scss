@@ -6,16 +6,19 @@
 
 .section
 {
-    background-color: black;
+    background-color: #1A1A1D;
 
 
     .container
     {
+        margin-top: 50px;
+        margin-bottom: 100px;
         .title
         {
           text-align: center;
             color: white;
-            font-size:50px;
+            font-size:40px;
+
             font-family: 'helvetica';
             font-weight: 600;
         .red
@@ -27,12 +30,16 @@
         }
         .speaker_container
         {
-            margin-top: 80px;
             display: flex;
             width: 100%;
+            margin-top: 100px;
             flex-flow: row wrap;
             justify-content: center;
-       
+            
+            .align
+            {
+                align-self: center;
+            }
         .speaker_holder
         {
          
@@ -42,8 +49,9 @@
             justify-content: center;
             max-height: 400px;
             max-width: 300px;
-            margin-bottom: 70px;
+            margin-bottom: 30px;
             margin-left: 50px;
+            
             
 
             .speaker_name
@@ -63,7 +71,7 @@
             }
             .speaker
             {  
-                align-self: center;
+               align-self: center;
                width: 250px;
                height: 250px;
             
