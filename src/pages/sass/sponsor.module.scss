@@ -46,8 +46,7 @@
             margin:20px;
             max-width: 190px;
             max-height: 150px;
-            width: 160px;
-            height: 130px;
+            
             align-self: center;
             min-width: 100px;
             min-height: 50px;
@@ -81,5 +80,15 @@
         margin-top: 60px;
         font-family: 'helvetica';
         padding: 10px;
+
+        @media #{$media-mobile} {
+            flex-direction: column;
+             
+         }
+         @media #{$media-small} {
+            font-size: 15px;
+             
+         }
+
     }
 }

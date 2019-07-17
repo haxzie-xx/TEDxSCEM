@@ -11,6 +11,23 @@
 
     .container
     {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    .HeroButton
+    {
+        text-decoration: none;
+        color: white;
+        width: 150px;
+        text-align: center;
+        align-self: center;
+        font-size: 15px;
+       margin-bottom: 80px;
+        font-family: 'helvetica';
+        padding: 10px;
+        background-color: rgb(230,43,30);
+    }
+
         .title
         {
           text-align: center;

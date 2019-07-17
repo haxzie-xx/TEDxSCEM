@@ -134,11 +134,13 @@ const Speakers =({props})=>
 
 
         </div>
+   
+        <Link className={style.HeroButton} to="/speakers">More About Speakers</Link>
         
-
+        
         </div>
 
-        </Container>
+       </Container>
 
     </div>
 )

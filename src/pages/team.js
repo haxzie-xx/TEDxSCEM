@@ -59,6 +59,12 @@ const TeamPage =()=>(
           image12: file(relativePath: { eq: "team_11.jpeg" }) {
             ...TeamPageImages
           }
+          image13: file(relativePath: { eq: "team_12.jpg" }) {
+            ...TeamPageImages
+          }
+          image14: file(relativePath: { eq: "team_13.jpeg" }) {
+            ...TeamPageImages
+          }
       }
 
     `}
@@ -175,7 +181,26 @@ const TeamPage =()=>(
             className={style.speaker}
             alt="Speaker image"
             /> 
-            <p className={style.speaker_name}>Shravan</p>
+            <p className={style.speaker_name}>Srishti Sureshkumar</p>
+            <p className={style.about_speaker}>Member</p>               
+            </div>
+
+            <div className={style.speaker_holder}>
+            <Img
+            fluid={data.image13.childImageSharp.fluid}
+            className={style.speaker}
+            alt="Speaker image"
+            /> 
+            <p className={style.speaker_name}>Naveen Shenoy</p>
+            <p className={style.about_speaker}>Member</p>               
+            </div>
+            <div className={style.speaker_holder}>
+            <Img
+            fluid={data.image14.childImageSharp.fluid}
+            className={style.speaker}
+            alt="Speaker image"
+            /> 
+            <p className={style.speaker_name}>Vishwas Kamath </p>
             <p className={style.about_speaker}>Member</p>               
             </div>
             
