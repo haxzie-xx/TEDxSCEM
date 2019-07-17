@@ -63,7 +63,8 @@
 }
 .activelinks
 {
-    color: white;
+    z-index: 1;    
+        color: white;
     text-decoration: underline solid rgb(230,43,30) 2PX;
     margin-bottom: 0px;
     border-bottom: solid rgb(230,43,30) 2px;
