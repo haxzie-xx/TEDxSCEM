@@ -10,7 +10,9 @@
     background-image: url('../../images/TedX(1).png');
     background-size:cover; 
     margin: 0px;
+    width: 100vw;
     height: 100vh;
+    z-index: -1;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -42,6 +44,43 @@
             margin-top: 250px;
             
           }
+
+          .date_holder
+          {
+            display: flex;
+            flex-direction: row;
+            .HeroButton
+                {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 15px;
+                   height: 15px;;
+                   width: 100px;
+                   text-align: center;
+                    font-family: 'helvetica';
+                    padding: 10px;
+                    background-color: rgb(230,43,30);
+                }
+                .date
+                  {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 100px;
+                    margin: 0px;
+                    vertical-align: middle;
+                    text-align: center;
+                    color: white;
+                    font-family: 'helvetica';
+                    border:solid 2px white; 
+                  }
+
+          }
+
+          
+
+
+
           .slogans
           {
             font-family: 'helvetica';
@@ -111,16 +150,7 @@
         font-weight: 700;
     }
 
-    .HeroButton
-    {
-        text-decoration: none;
-        color: white;
-        font-size: 15px;
-        margin-top: 100px;
-        font-family: 'helvetica';
-        padding: 10px;
-        background-color: rgb(230,43,30);
-    }
+    
 }
 }
 

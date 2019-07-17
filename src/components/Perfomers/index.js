@@ -45,15 +45,6 @@ const Perfomers=()=>
             <div className={style.speaker_container}>
             <div className={style.speaker_holder}>
             <Img
-            fluid={data.imageFirst.childImageSharp.fluid}
-            className={style.speaker}
-            alt="Speaker image"
-            /> 
-            <p className={style.speaker_name}>Karishma Arora</p>
-            <p className={style.about_speaker}>Kathak</p>               
-            </div>
-            <div className={style.speaker_holder}>
-            <Img
             fluid={data.imageSecond.childImageSharp.fluid}
             className={style.speaker}
             alt="Speaker image"
@@ -61,6 +52,16 @@ const Perfomers=()=>
             <p className={style.speaker_name}>Adarsh Pakkala</p>
             <p className={style.about_speaker}>Yakshagana</p>               
             </div>
+            <div className={style.speaker_holder}>
+            <Img
+            fluid={data.imageFirst.childImageSharp.fluid}
+            className={style.speaker}
+            alt="Speaker image"
+            /> 
+            <p className={style.speaker_name}>Karishma Arora</p>
+            <p className={style.about_speaker}>Kathak</p>               
+            </div>
+            
             <div className={style.speaker_holder}>
             <Img
             fluid={data.imageThird.childImageSharp.fluid}
