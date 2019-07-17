@@ -62,7 +62,7 @@ const TeamPage =()=>(
           image13: file(relativePath: { eq: "team_12.jpg" }) {
             ...TeamPageImages
           }
-          image14: file(relativePath: { eq: "team_13.jpeg" }) {
+          image14: file(relativePath: { eq: "team_new.jpeg" }) {
             ...TeamPageImages
           }
       }
