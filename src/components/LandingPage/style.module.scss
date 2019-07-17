@@ -42,7 +42,47 @@
             margin-top: 250px;
             
           }
+          .slogans
+          {
+            font-family: 'helvetica';
+        color: white;
+        font-size: 50px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        float: right;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-weight: 500;
+        @media #{$media-tablet-p} {
+          position: relative;
+          float: none;
+          font-size:30px; 
+        }
+        @media #{$media-mobile} {
+          position: relative;
+          float: none;
+          font-size:30px; 
+        }
+        @media #{$media-small} {
+          position: relative;
+          float: none;
+          font-size:30px; 
+        }
 
+        .spin:after {
+          content:"";
+          animation: spin 10s linear infinite;
+        }
+        @keyframes spin {
+          0% { content:"Unpredict"; }
+          20% { content:"Unbeat"; }
+          40% { content:"Unbeliev"; }
+          60% { content:"Unconquer"; }
+          80% { content:"Unbreak"; }
+          100% { content: "Undefeat"; }
+        }
+          }
 
     .herotitle
     {

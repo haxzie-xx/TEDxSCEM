@@ -24,14 +24,14 @@ const Venue =()=>
 
                 </p>
                 <div className={style.buttons}>
-                <Link className={style.HeroButton}>Get Tickets</Link>
-                <Link className={style.HeroButton}>Get Directions</Link>
+                <a className={style.HeroButton} href="https://www.townscript.com/e/tedxscem-211323">Get Tickets</a>
+                <a className={style.HeroButton} href="https://g.page/Sahyadri-edu?share">Get Directions</a>
 
                 </div>
               
             <div className={style.venue_holder}>
                 <img className={style.venue_image} src={Sahyadri} alt="Sahyadri campus"/>
-                <img className={style.venue_image} src={Map} alt="Sahyadri campus"/>
+               <a href="https://g.page/Sahyadri-edu?share"><img className={style.venue_image} src={Map} alt="Sahyadri campus"/></a> 
                 
 
             </div>

@@ -14,7 +14,8 @@ const LandingPage =()=>
     <div className={style.herocontent}>
         <p className={style.herotitle}><span className={style.red}>TEDx</span> SCEM 2019</p>
         <p className={style.heroslogan}>"How unpredictable are you"</p>
-        <Link className={style.HeroButton}>Get Tickets</Link>
+        <p className={style.slogans}>"<span className={style.spin}></span><span className={style.red}>able"</span> </p>
+        <a className={style.HeroButton} href="https://www.townscript.com/e/tedxscem-211323">Get Tickets</a>
     </div>
 </Container>
 </div>
