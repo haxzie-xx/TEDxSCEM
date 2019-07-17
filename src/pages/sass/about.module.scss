@@ -9,7 +9,7 @@
 .section
 {
     background-color: black;
-
+   
    
     .container
     {
@@ -21,8 +21,19 @@
         @media #{$media-desktop}
         {
             margin-top: 0px;
-                 height: 100vh;
+                height: 100vh;
         }
+        @media #{$media-large}
+        {
+            margin-top: 0px;
+                height: 100vh;
+        }
+        @media #{$media-tablet-p}
+        {
+            margin-top: 0px;
+                height: 100vh;
+        }
+       
         
     .title
     {
