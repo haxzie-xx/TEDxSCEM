@@ -1,0 +1,96 @@
+@font-face{
+    font-family: 'helvetica';
+    src:url('../../assets/Helvetica.ttf');
+}
+@import '../../assets/variables';
+
+
+.section
+{
+    background-color: #1A1A1D;
+    .container
+    {
+       height: 100%;
+       width: 100%;
+       display: flex;
+       margin-bottom: 20px;
+       flex-direction: column;
+       .content_holder
+       {
+           margin-top: 30px;
+           display: flex;
+           justify-content: space-evenly;
+
+           @media #{$media-mobile} {
+            flex-direction: column;
+        }
+        @media #{$media-small} {
+            flex-direction: column;
+        }
+
+           .insta
+           {
+               font-family: 'helvetica';
+               color: white;
+               text-decoration: none;
+               margin: 0px;
+               text-align: center;
+               @media #{$media-mobile} {
+                margin-top: 30px;
+            }
+            @media #{$media-small} {
+                margin-top: 30px;
+            }
+
+               .red
+               {
+                text-align: center;
+               color:rgb(230,43,30);
+               font-weight: 700;
+               }
+           }
+           .insta2
+           {
+               font-family: 'helvetica';
+               color: white;
+               text-decoration: none;
+               margin: 0px;
+               text-align: center;
+               @media #{$media-mobile} {
+                margin-top: 10px;
+            }
+            @media #{$media-small} {
+                margin-top: 10px;
+            }
+
+               .red
+               {
+                text-align: center;
+               color:rgb(230,43,30);
+               font-weight: 700;
+               }
+           }
+       }
+       .license
+       {
+        font-family: 'helvetica';
+        color: white;
+        text-align: center;
+        margin-top:30px; 
+       }
+       .credits
+       {
+           display: flex;
+           justify-content: center;
+        .insta
+        {
+            font-size: 15px;
+            margin-left: 15px;
+            font-family: 'helvetica';
+            color: white;
+            text-decoration: none;
+            margin: 0px;
+        }
+       }
+    }
+}

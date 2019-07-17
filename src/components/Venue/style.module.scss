@@ -1,0 +1,136 @@
+@font-face{
+    font-family: 'helvetica';
+    src:url('../../assets/Helvetica.ttf');
+}
+@import '../../assets/variables';
+
+
+.section
+{
+
+    background-color: black;
+    .title
+    {
+      text-align: center;
+        color: white;
+        font-size:50px;
+        font-family: 'helvetica';
+        font-weight: 600;
+
+    .red
+    {
+    color:rgb(230,43,30);
+    font-weight: 700;
+    }
+    
+}
+    .container
+    {
+
+        background-color:#1A1A1D;;
+        text-align: center;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+       
+
+        .buttons
+        {
+            display: flex;
+            justify-content: space-between;
+            height: 80%;
+            align-self: center;
+            width: 30%;
+
+            @media #{$media-tablet-p} {
+                width: 50%;
+                
+            }
+            @media #{$media-mobile} {
+                width: 60%;
+                
+            }
+            @media #{$media-small} {
+                width: 80%;
+                    
+
+                
+            }
+            .HeroButton
+            {
+                align-self: center;
+                text-decoration: none;
+                color: white;
+                
+                font-size: 15px;
+                margin-top: 30px;
+                font-family: 'helvetica';
+                padding: 10px;
+                background-color: rgb(230,43,30);
+            }
+        }
+    .venue_content
+    {
+        margin-top: 30px;
+        margin-bottom: 0px;
+       width: 80%;
+       align-self: center;
+        font-size: 19px;
+        color: white;
+        font-family: 'helvetica';
+        font-weight: 500;
+    }
+        .venue_holder
+        {
+            background-color:#1A1A1D;;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            @media #{$media-tablet-p} {
+                flex-direction: column;
+                
+            }
+            @media #{$media-mobile} {
+                flex-direction: column;
+                
+            }
+            @media #{$media-small} {
+                flex-direction: column;
+                    
+
+                
+            }
+           
+            .venue_image
+            {
+                background-color: white;
+            border-color: white;
+            border: 10px;
+           
+             max-width: 500px;
+             max-height: 480px;
+
+             @media #{$media-tablet-p} {
+                align-self: center;
+                
+            }
+            @media #{$media-mobile} {
+              height: 300px;;
+                
+            }
+            @media #{$media-small} {
+                height: 200px;;
+                    
+
+                
+            }
+             
+            }
+        
+        }
+     
+}
+}

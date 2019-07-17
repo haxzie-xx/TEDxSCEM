@@ -10,14 +10,14 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from 'styled-components';
 
-import Header from "./header"
+import Header from "./Header/header"
+import Footer from '../components/footer'
 
 
 const LayoutDiv = styled.div`
   display: flex;
   flex-direction: column;
   position: absolute;
-  background-color: #1A1A1D;
   width: 100%;
   height: 100%;
 `;
@@ -38,6 +38,7 @@ const Layout = ({ children }) => (
         <Header/>
 
         { children }
+        <Footer />
       </LayoutDiv>
     )}
   />

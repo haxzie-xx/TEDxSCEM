@@ -1,0 +1,65 @@
+
+@font-face{
+    font-family: 'helvetica';
+    src:url('../../assets/Helvetica.ttf');
+}
+@import '../../assets/variables';
+
+
+.section
+{
+    background-color: black;
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    background-color: black;
+    .title
+    {
+      text-align: center;
+        color: white;
+        font-size:40px;
+
+        font-family: 'helvetica';
+        font-weight: 600;
+
+        @media #{$media-mobile} {
+            font-size: 35px;
+             
+         }
+         @media #{$media-small} {
+             font-size: 35px;
+             
+         }
+    .red
+    {
+    color:rgb(230,43,30);
+    font-weight: 700;
+    }
+    
+    }
+
+    .content
+    {
+        text-align: center;
+        color: white;
+        font-size:18px;
+
+        font-family: 'helvetica';
+        font-weight: 400;
+
+        @media #{$media-mobile} {
+            font-size: 18px;
+             
+         }
+         @media #{$media-small} {
+             font-size: 18px;
+             
+         }
+    }
+    }
+    
+
+    
+}

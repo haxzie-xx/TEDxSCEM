@@ -1,0 +1,101 @@
+@font-face{
+    font-family: 'helvetica';
+    src:url('../../assets/Helvetica.ttf');
+}
+@import '../../assets/variables';
+
+.section
+{
+    background-color: black;
+
+
+    .container
+    {
+        .title
+        {
+          text-align: center;
+            color: white;
+            font-size:50px;
+            font-family: 'helvetica';
+            font-weight: 600;
+
+            @media #{$media-mobile} {
+               font-size: 40px;
+                
+            }
+            @media #{$media-small} {
+                font-size: 40px;
+                
+            }
+        .red
+        {
+        color:rgb(230,43,30);
+        font-weight: 700;
+        }
+        
+        }
+        .speaker_container
+        {
+            margin-top: 80px;
+            display: flex;
+            width: 100%;
+            flex-flow: row wrap;
+            justify-content: center;
+            .speaker_details
+            {
+                color: white;
+            }
+        .speaker_holder
+        {
+         
+            flex: 1 0 calc(23.333% - 20px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-height: 400px;
+            max-width: 300px;
+            margin-bottom: 70px;
+            margin-left: 50px;
+            @media #{$media-tablet-p} {
+                margin-left: 0px;
+                
+            }
+            @media #{$media-mobile} {
+                margin-left: 0px;
+                margin-top: 30px;
+            }
+            @media #{$media-small} {
+                margin-left: 0px;
+                margin-top: 30px;
+            }
+            
+
+            .speaker_name
+            {
+                align-self: center;
+                font-family: 'helvetica';
+                color: white;
+                font-size: 20px;
+                margin-bottom: 0px;
+            }
+            .about_speaker
+            {
+                align-self: center;
+                font-family: 'helvetica';
+                margin:0px;
+                    color: grey;
+            }
+            .speaker
+            {  
+                align-self: center;
+               width: 250px;
+               height: 250px;
+            
+               border-radius: 125px;
+            }
+        
+           
+        }
+    }
+}
+}

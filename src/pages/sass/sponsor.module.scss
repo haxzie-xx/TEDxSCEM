@@ -1,0 +1,94 @@
+
+@font-face{
+    font-family: 'helvetica';
+    src:url('../../assets/Helvetica.ttf');
+}
+@import '../../assets/variables';
+
+
+.section
+{
+    background-color: black;
+    .title
+    {
+      text-align: center;
+        color: white;
+        font-size:40px;
+
+        font-family: 'helvetica';
+        font-weight: 600;
+
+        @media #{$media-mobile} {
+            font-size: 35px;
+             
+         }
+         @media #{$media-small} {
+             font-size: 35px;
+             
+         }
+    .red
+    {
+    color:rgb(230,43,30);
+    font-weight: 700;
+    }
+    
+    }
+
+    .container
+    {
+       display: flex;
+       justify-content: center;
+       flex-direction: row;
+       
+      
+        .sponsor_image
+        {
+            margin:20px;
+            max-width: 190px;
+            max-height: 150px;
+            
+            align-self: center;
+            min-width: 100px;
+            min-height: 50px;
+        }
+        @media #{$media-mobile} {
+            flex-direction: column;
+             
+         }
+         @media #{$media-small} {
+            flex-direction: column;
+             
+         }
+
+    }
+
+    .HeroButton
+    {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        margin-top: 100px;
+        font-family: 'helvetica';
+        padding: 10px;
+        background-color: rgb(230,43,30);
+    }
+    .sponsor
+    {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        margin-top: 60px;
+        font-family: 'helvetica';
+        padding: 10px;
+
+        @media #{$media-mobile} {
+            flex-direction: column;
+             
+         }
+         @media #{$media-small} {
+            font-size: 15px;
+             
+         }
+
+    }
+}
