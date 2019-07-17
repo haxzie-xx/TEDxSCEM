@@ -48,7 +48,11 @@
 
         font-family: 'helvetica';
         font-weight: 400;
-
+        .links
+        {
+            text-decoration: none;
+            color: rgb(230,43,30);
+        }
         @media #{$media-mobile} {
             font-size: 18px;
              

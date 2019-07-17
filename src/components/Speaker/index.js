@@ -88,6 +88,15 @@ const Speakers =({props})=>
             </div>
             <div className={style.speaker_holder}>
             <Img
+            fluid={data.imageSixth.childImageSharp.fluid}
+            className={style.speaker}
+            alt="Speaker image"
+            /> 
+            <p className={style.speaker_name}>Dr RohanChandra Gatty</p>
+            <p className={style.about_speaker}>Doctor</p>               
+            </div>
+            <div className={style.speaker_holder}>
+            <Img
             fluid={data.imageFourth.childImageSharp.fluid}
             className={style.speaker}
             alt="Speaker image"
@@ -104,14 +113,16 @@ const Speakers =({props})=>
             <p className={style.speaker_name}>Kivita Mishra</p>
             <p className={style.about_speaker}>Agriculturist</p>               
             </div>
+            
+            
             <div className={style.speaker_holder}>
             <Img
-            fluid={data.imageSixth.childImageSharp.fluid}
+            fluid={data.imageEiegth.childImageSharp.fluid}
             className={style.speaker}
             alt="Speaker image"
             /> 
-            <p className={style.speaker_name}>Dr RohanChandra Gatty</p>
-            <p className={style.about_speaker}>Doctor</p>               
+            <p className={style.speaker_name}>Ankith Kumar</p>
+            <p className={style.about_speaker}>Motivator</p>               
             </div>
             <div className={style.speaker_holder}>
             <Img
@@ -122,16 +133,6 @@ const Speakers =({props})=>
             <p className={style.speaker_name}>Swami Ekagamyananda</p>
             <p className={style.about_speaker}>Social Worker</p>               
             </div>
-            <div className={style.speaker_holder}>
-            <Img
-            fluid={data.imageEiegth.childImageSharp.fluid}
-            className={style.speaker}
-            alt="Speaker image"
-            /> 
-            <p className={style.speaker_name}>Ankith Kumar</p>
-            <p className={style.about_speaker}>Motivator</p>               
-            </div>
-
 
         </div>
    

@@ -27,7 +27,7 @@ const aboutPage=()=>
 
 The annual TED Conference takes place each spring in Vancouver, British Columbia. TED's media initiatives include TED.com, where new TED Talks are posted daily; TED Translators, which provides subtitles and interactive transcripts as well as translations from volunteers worldwide; the educational initiative TED-Ed. TED has established The Audacious Project that takes a collaborative approach to funding ideas with the potential to create change at thrilling scale; TEDx, which supports individuals or groups in hosting local, self- organized TED-style events around the world, and the TED Fellows program, helping world-changing innovators from around the globe to amplify the impact of their remarkable projects and activities.
 
-Follow TED on Twitter at http://twitter.com/TEDTalks, or on Facebook at http://www.facebook.com/TED. 
+Follow TED on Twitter at <a  class={style.links} href="http://twitter.com/TEDTalks">TEDTalks,</a> or on Facebook at<a class={style.links} href="http://www.facebook.com/TED."> TED. </a>
     </p>
    <p className={style.sponsor}>Wanna Sponsor Us ? Mail us on tedxscem@gmail.com to know more.</p>
 
