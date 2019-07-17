@@ -10,7 +10,6 @@
     background-color: black;
     padding:7px;
     display: flex;
-    width: 100%;
     justify-content: space-between;
 
     @media  #{$media-mobile} {
@@ -65,15 +64,10 @@
 .activelinks
 {
     color: white;
-    text-decoration: none;
+    text-decoration: underline solid rgb(230,43,30) 2PX;
     margin-bottom: 0px;
     border-bottom: solid rgb(230,43,30) 2px;
-    @media  #{$media-large} {
-       margin-bottom: 10px;
-     }
-     @media  #{$media-desktop} {
-        margin-bottom: 10px;
-     }
+    
 }
 
 }
