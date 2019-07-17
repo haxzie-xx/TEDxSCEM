@@ -66,13 +66,13 @@
 {
     color: white;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     border-bottom: solid rgb(230,43,30) 2px;
-    @media  #{$media-mobile} {
-       margin-bottom: 0px;
+    @media  #{$media-large} {
+       margin-bottom: 10px;
      }
-     @media  #{$media-small} {
-        margin-bottom: 0px;
+     @media  #{$media-desktop} {
+        margin-bottom: 10px;
      }
 }
 
