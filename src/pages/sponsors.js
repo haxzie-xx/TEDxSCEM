@@ -56,7 +56,7 @@ const Sponsors=()=>
 
 
             </div>
-           <p className={style.sponsor}>Wanna Sponsor Us ? Mail us on tedxscem@gmail.com to know more.</p>
+           <p className={style.sponsor}>Wanna Sponsor Us ? Mail us on <span className={style.red}>tedxscem@gmail.com </span>to know more.</p>
 
             </Container>
 

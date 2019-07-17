@@ -5,10 +5,17 @@
 }
 @import '../../assets/variables';
 
-
+$adjust:'200px';
 .section
 {
     background-color: black;
+
+    @media #{$media-large}
+        {
+           
+          height: 100vh;
+        }
+    
     .title
     {
       text-align: center;
@@ -40,7 +47,7 @@
        justify-content: center;
        flex-direction: row;
        
-      
+       
         .sponsor_image
         {
             margin:20px;
@@ -81,6 +88,11 @@
         font-family: 'helvetica';
         padding: 10px;
 
+
+        .red
+        {
+            color: rgb(230,43,30);
+        }
         @media #{$media-mobile} {
             flex-direction: column;
              

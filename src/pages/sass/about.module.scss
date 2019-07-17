@@ -9,12 +9,21 @@
 .section
 {
     background-color: black;
+
+   
     .container
     {
         display: flex;
         flex-direction: column;
         justify-content: center;
-    background-color: black;
+        background-color: black;
+        margin-top: 70px;
+        @media #{$media-desktop}
+        {
+            margin-top: 0px;
+                 height: 100vh;
+        }
+        
     .title
     {
       text-align: center;
