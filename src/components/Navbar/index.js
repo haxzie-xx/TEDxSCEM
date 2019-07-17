@@ -12,6 +12,7 @@ import { css } from "@emotion/core"
 
 const Navbar =()=>
 (
+    <div className={style.sticky}>
     <div className={style.container}>
         <img src={tedlogo} className={style.tedlogo}/>
         <div className={style.pages}>
@@ -25,7 +26,7 @@ const Navbar =()=>
         </div>
 
     </div>
-
+    </div>
     
 )
 

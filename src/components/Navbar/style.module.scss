@@ -5,8 +5,16 @@
 }
 
 @import '../../assets/variables';
+.sticky
+{
+    position: fixed;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
 .container
 {
+    
     background-color: black;
     padding:7px;
     display: flex;
