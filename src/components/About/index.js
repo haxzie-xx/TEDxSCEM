@@ -21,7 +21,7 @@ const About =()=>
         Our event is called TEDxSCEM, where x = independently organized TED event. At our TEDxSCEM event, 
         TED Talks video and live speakers will combine to spark deep discussion and connection in a small group. The TED Conference provides general 
         guidance for the TEDx program, but individual TEDx events, including ours, are self-organized.</p>
-        <Link className={style.HeroButton}>Learn more</Link>
+        <Link className={style.HeroButton} to="/about">Learn more</Link>
         </div>
 
         <img src={TEDx} className={style.About_image}   alt="about-ted" />
